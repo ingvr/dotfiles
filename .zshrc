@@ -20,10 +20,13 @@ export WORDCHARS='*?[]~&;!$%^<>'
 # Highlight search results in ack.
 export ACK_COLOR_MATCH='red'
 
-# Some settings
+# Global variables
 EDITOR='/usr/local/bin/vim'
 
 # Aliases
+alias vimrc='$EDITOR ~/.vimrc'
+alias zshrc='$EDITOR ~/.zshrc'
+
 alias ls='ls -A'
 alias o='open .'
 alias cl='clear'
