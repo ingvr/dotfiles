@@ -7,11 +7,12 @@ filetype plugin indent on
 "set noswapfile
 
 " Colorscheme
-colorscheme Kafka
+let base16colorspace=256
+set background=dark
+colorscheme base16-ocean 
 
 " Highlighting for md
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-
 
 " Emmet hotkey
 let g:user_emmet_expandabbr_key = '<C-e>'

@@ -3,6 +3,12 @@ export ZSH=/Users/ingvar/.oh-my-zsh
 ZSH_THEME="Gitster"
 plugins=(git github npm theme rails ruby capistrano osx terminalapp)
 
+export CLICOLOR=1
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-ocean.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
 # User configuration
 export PATH=/usr/local/sbin:/usr/local/bin:${PATH}
 export PATH="$HOME/bin:$PATH"
