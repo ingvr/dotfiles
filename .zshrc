@@ -28,7 +28,7 @@ EDITOR='/usr/local/bin/vim'
 # Aliases
 alias vimrc='$EDITOR ~/.vimrc'
 alias zshrc='$EDITOR ~/.zshrc'
-alias cmus='cmus-osx.py'
+alias cmus='cmus-osx.py -c ":set status_display_program=cmusfm"'
 alias ls='ls -A'
 alias o='open .'
 alias cl='clear'
