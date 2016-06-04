@@ -5,10 +5,6 @@ plugins=(git github npm theme rails ruby capistrano osx terminalapp)
 
 export CLICOLOR=1
 
-# Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/base16-ocean.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
-
 # User configuration
 export PATH=/usr/local/sbin:/usr/local/bin:${PATH}
 export PATH="$HOME/bin:$PATH"
@@ -33,6 +29,7 @@ EDITOR='/usr/local/bin/vim'
 alias vimrc='$EDITOR ~/.vimrc'
 alias zshrc='$EDITOR ~/.zshrc'
 alias cmus='cmus-osx.py'
+alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 
 alias ls='ls -A'
 alias o='open .'
