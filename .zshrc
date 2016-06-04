@@ -29,13 +29,15 @@ EDITOR='/usr/local/bin/vim'
 alias vimrc='$EDITOR ~/.vimrc'
 alias zshrc='$EDITOR ~/.zshrc'
 alias cmus='cmus-osx.py'
-alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
-
 alias ls='ls -A'
 alias o='open .'
 alias cl='clear'
 alias r='cd ~/Projects/rails'
-
+alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 alias vi='vim'
-
 alias gst='git status'
+
+# Diary
+DIARY_CS='seoul256' # custom colorscheme for Diary
+alias diaryi='vim -c :VimwikiDiaryIndex -c :VimwikiDiaryGenerateLinks -c ":colorscheme $DIARY_CS" -c Goyo'
+alias diary='vim -c :VimwikiMakeDiaryNote ":colorscheme $DIARY_CS" -c Goyo -c startinsert' 
