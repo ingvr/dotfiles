@@ -36,7 +36,7 @@ noremap Q <nop>
 
 " vimwiki
 let g:vimwiki_list = [
-   \{'path': '$HOME/Dropbox/'}
+   \{'path': '$HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Journal/'}
 \]
 
 au BufRead,BufNewFile *.wiki set filetype=vimwiki

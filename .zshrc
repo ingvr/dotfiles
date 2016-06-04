@@ -40,4 +40,4 @@ alias gst='git status'
 # Diary
 DIARY_CS='seoul256' # custom colorscheme for Diary
 alias diaryi='vim -c :VimwikiDiaryIndex -c :VimwikiDiaryGenerateLinks -c ":colorscheme $DIARY_CS" -c Goyo'
-alias diary='vim -c :VimwikiMakeDiaryNote ":colorscheme $DIARY_CS" -c Goyo -c startinsert' 
+alias diary='vim -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c startinsert' 
