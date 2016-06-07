@@ -20,6 +20,11 @@ let mapleader = ","
 " Statusbar Airline
 set laststatus=2
 let g:airline_theme='bubblegum'
+" Habbit breaking > disable arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 
 set linebreak
 set number
