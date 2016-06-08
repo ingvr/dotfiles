@@ -7,8 +7,7 @@ filetype plugin indent on
 "set noswapfile
 
 " Colorscheme
-set background=dark
-colorscheme Kafka 
+colorscheme itg_flat_transparent 
 
 " Highlighting for md
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
