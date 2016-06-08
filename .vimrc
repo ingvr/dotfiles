@@ -34,6 +34,12 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 
+" Autoinent fix
+augroup auto_comment
+  au!
+  au FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+augroup END
+
 " mappings
 noremap <Leader>s :update<CR>
 noremap Q <nop>
