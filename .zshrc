@@ -34,7 +34,8 @@ alias o='open .'
 alias cl='clear'
 alias r='cd ~/Projects/rails'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
-alias vi='vim'
+alias vim='nvim'
+alias vi='nvim'
 alias gst='git status'
 
 # Diary
