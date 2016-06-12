@@ -38,6 +38,7 @@ alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 alias vim='nvim'
 alias vi='nvim'
 alias gst='git status'
+alias gtc='git add . && git commit'
 
 # Diary
 DIARY_CS='seoul256' # custom colorscheme for Diary
