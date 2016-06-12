@@ -41,7 +41,7 @@ noremap Q <nop>
 
 " vimwiki
 let g:vimwiki_list = [
-   \{'path': '$HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Journal/',
-                        \ 'syntax': 'markdown', 'ext': '.md'}]
+   \{'path': '$HOME/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents',
+                        \ 'syntax': 'markdown', 'ext': '.txt'}]
 
 au BufRead,BufNewFile *.wiki set filetype=vimwiki
