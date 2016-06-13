@@ -42,5 +42,8 @@ alias gtc='git add . && git commit'
 
 # Diary
 DIARY_CS='seoul256' # custom colorscheme for Diary
-alias diaryi='vim -c :VimwikiDiaryIndex -c :VimwikiDiaryGenerateLinks -c ":colorscheme $DIARY_CS" -c Goyo'
-alias diary='vim -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c startinsert' 
+alias diaryi='vi -c :VimwikiDiaryIndex -c :VimwikiDiaryGenerateLinks -c ":colorscheme $DIARY_CS" -c Goyo'
+alias diary='vi -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c ":set syntax=markdown" -c startinsert'
+
+# Writer
+alias writer='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents && vi -c ":colorscheme $DIARY_CS" -c Goyo -c ":set syntax=markdown" -c startinsert' 
