@@ -1,8 +1,7 @@
 # Oh-my-zsh configuration
 export ZSH=/Users/ingvar/.oh-my-zsh
 ZSH_THEME="Gitster"
-plugins=(git github npm theme rails ruby capistrano osx terminalapp)
-
+plugins=(geeknote git npm rails web-search)
 export CLICOLOR=1
 
 # User configuration
@@ -28,7 +27,6 @@ EDITOR='/usr/local/bin/vim'
 # Aliases
 alias vimrc='$EDITOR ~/.vimrc'
 alias zshrc='$EDITOR ~/.zshrc'
-alias update-pathogen='sh ~/.vim/bundle/update.sh'
 alias cmus='cmus-osx.py -c ":set status_display_program=cmusfm"'
 alias ls='ls -A'
 alias o='open .'
@@ -37,8 +35,6 @@ alias r='cd ~/Projects/rails'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 alias vim='nvim'
 alias vi='nvim'
-alias gst='git status'
-alias gtc='git add . && git commit'
 
 alias gulpnew='git clone https://github.com/nzmi/katana-gulp.git . && bower i && npm i'
 
@@ -48,4 +44,7 @@ alias diaryi='vi -c :VimwikiDiaryIndex -c :VimwikiDiaryGenerateLinks -c ":colors
 alias diary='vi -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c ":set syntax=markdown" -c startinsert'
 
 # Writer
-alias writer='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents && vi -c ":colorscheme $DIARY_CS" -c Goyo -c ":set syntax=markdown" -c startinsert' 
+alias writer='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents && vi -c ":colorscheme $DIARY_CS" -c Goyo -c ":set syntax=markdown" -c startinsert'
+
+# Open with aliases
+alias -s rb=nvim
