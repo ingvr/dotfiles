@@ -10,7 +10,7 @@ filetype plugin indent on
 colorscheme itg_flat_transparent 
 
 " Highlighting for md
-au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+au BufNewFile,BufFilePre,BufRead *.md *.txt set filetype=markdown
 
 " Emmet hotkey
 let g:user_emmet_expandabbr_key = '<C-e>'

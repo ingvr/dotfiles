@@ -40,6 +40,8 @@ alias vi='nvim'
 alias gst='git status'
 alias gtc='git add . && git commit'
 
+alias gulpnew='git clone https://github.com/nzmi/katana-gulp.git . && bower i && npm i'
+
 # Diary
 DIARY_CS='seoul256' # custom colorscheme for Diary
 alias diaryi='vi -c :VimwikiDiaryIndex -c :VimwikiDiaryGenerateLinks -c ":colorscheme $DIARY_CS" -c Goyo'
