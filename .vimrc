@@ -35,6 +35,8 @@ augroup auto_comment
   au FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 augroup END
 
+filetype indent on
+
 " mappings
 noremap <Leader>s :update<CR>
 noremap Q <nop>
