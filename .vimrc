@@ -34,8 +34,10 @@ augroup auto_comment
   au!
   au FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 augroup END
-
 filetype indent on
+
+" Autoclose tags 
+:iabbrev </ </<C-X><C-O>
 
 " mappings
 noremap <Leader>s :update<CR>
