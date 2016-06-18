@@ -44,6 +44,7 @@ alias diaryi='vi -c :VimwikiDiaryIndex -c :VimwikiDiaryGenerateLinks -c ":colors
 alias diary='vi -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c ":set syntax=markdown" -c startinsert'
 
 # Writer
+alias ia='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents'
 alias writer='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents && vi -c ":colorscheme $DIARY_CS" -c Goyo -c ":set syntax=markdown" -c startinsert'
 
 # Open with aliases
