@@ -12,11 +12,11 @@ colorscheme itg_flat_transparent
 " Highlighting for md
 au BufNewFile,BufFilePre,BufRead *.md *.txt set filetype=markdown
 
-" Emmet hotkey
-let g:user_emmet_expandabbr_key = '<C-e>'
-" Leader hotkey
+" leader hotkey
 let mapleader = ","
-" Statusbar Airline
+" emmet hotkey
+let g:user_emmet_expandabbr_key = '<C-e>'
+" statusbar Airline
 set laststatus=2
 let g:airline_theme='bubblegum'
 
@@ -29,14 +29,17 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 
-" Autoinent fix
+" folding
+set foldmethod=syntax
+
+" autoinent fix
 augroup auto_comment
   au!
   au FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 augroup END
 filetype indent on
 
-" Autoclose tags 
+" autoclose tags 
 :iabbrev </ </<C-X><C-O>
 
 " mappings
