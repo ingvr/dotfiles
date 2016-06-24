@@ -35,6 +35,8 @@ alias r='cd ~/Projects/rails'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 alias vim='nvim'
 alias vi='nvim'
+alias gtc='git add . && git commit'
+alias gts='git status'
 
 alias gulpnew='git clone https://github.com/nzmi/katana-gulp.git . && bower i && npm i'
 
