@@ -47,7 +47,7 @@ alias diary='vi -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c 
 
 # Writer
 alias ia='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents'
-alias writer='vi -c ":colorscheme seoul256-light" -c Goyo -c ":set syntax=markdown" -c ":setlocal spell spelllang=ru,en" -c startinsert'
+alias writer='vi -c ":colorscheme seoul256-light" -c Goyo -c ":set syntax=markdown" -c ":setlocal spell spelllang=ru,en" -c ":highlight Title cterm=bold" -c startinsert'
 
 # Open with aliases
 alias -s rb=nvim
