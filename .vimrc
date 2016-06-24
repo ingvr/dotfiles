@@ -48,6 +48,8 @@ filetype indent on
 " mappings
 noremap <Leader>s :update<CR>
 noremap Q <nop>
+inoremap <Down> <C-o>gj
+inoremap <Up> <C-o>gk
 
 " vimwiki
 let g:vimwiki_list = [
@@ -55,6 +57,3 @@ let g:vimwiki_list = [
                         \ 'syntax': 'markdown', 'ext': '.md'}]
 
 au BufRead,BufNewFile *.wiki set filetype=vimwiki
-
-let g:pencil_neutral_headings = 1
-
