@@ -55,3 +55,6 @@ let g:vimwiki_list = [
                         \ 'syntax': 'markdown', 'ext': '.md'}]
 
 au BufRead,BufNewFile *.wiki set filetype=vimwiki
+
+let g:pencil_neutral_headings = 1
+
