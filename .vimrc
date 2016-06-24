@@ -10,7 +10,7 @@ filetype plugin indent on
 colorscheme itg_flat_transparent 
 
 " Highlighting for md
-au BufNewFile,BufFilePre,BufRead *.md *.txt set filetype=markdown
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
 " leader hotkey
 let mapleader = ","
@@ -52,6 +52,6 @@ noremap Q <nop>
 " vimwiki
 let g:vimwiki_list = [
    \{'path': '$HOME/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents',
-                        \ 'syntax': 'markdown', 'ext': '.txt'}]
+                        \ 'syntax': 'markdown', 'ext': '.md'}]
 
 au BufRead,BufNewFile *.wiki set filetype=vimwiki
