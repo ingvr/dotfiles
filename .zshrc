@@ -1,8 +1,7 @@
 # Oh-my-zsh configuration
 export ZSH=/Users/ingvar/.oh-my-zsh
-ZSH_THEME="Gitster"
-plugins=(geeknote git npm rails web-search)
-export CLICOLOR=1
+ZSH_THEME="minimal"
+# export CLICOLOR=1
 
 # User configuration
 export PATH=/usr/local/sbin:/usr/local/bin:${PATH}
