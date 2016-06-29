@@ -21,7 +21,7 @@ export WORDCHARS='*?[]~&;!$%^<>'
 export ACK_COLOR_MATCH='red'
 
 # Global variables
-EDITOR='/usr/local/bin/vim'
+EDITOR='/usr/local/bin/nvim'
 
 # Aliases
 alias vimrc='$EDITOR ~/.vimrc'
