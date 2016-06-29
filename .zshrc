@@ -28,9 +28,9 @@ alias vimrc='$EDITOR ~/.vimrc'
 alias zshrc='$EDITOR ~/.zshrc'
 alias cmus='cmus-osx.py'
 alias ls='ls -A'
-alias o='open .'
+alias oo='open .'
 alias cl='clear'
-alias r='cd ~/Projects/rails'
+alias rr='cd ~/Projects/rails'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 alias vim='nvim'
 alias vi='nvim'
@@ -48,6 +48,3 @@ alias diary='vi -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c 
 alias ia='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents'
 alias writer='vi -c ":source ~/.vim/writer.vim"' 
 alias writerd='vi -c ":source ~/.vim/writer-dark.vim"' 
-
-# Open with aliases
-alias -s rb=nvim
