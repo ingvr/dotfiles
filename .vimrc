@@ -57,3 +57,13 @@ let g:vimwiki_list = [
                         \ 'syntax': 'markdown', 'ext': '.md'}]
 
 au BufRead,BufNewFile *.wiki set filetype=vimwiki
+
+function! SuperCleverTab()
+  if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+    return "\<Tab>"
+  else
+    return "\<C-p>"
+  endif
+endfunction
+
+inoremap <Tab> <C-R>=SuperCleverTab()<cr>
