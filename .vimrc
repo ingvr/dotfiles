@@ -48,6 +48,7 @@ filetype indent on
 " mappings
 noremap <Leader>s :update<CR>
 noremap Q <nop>
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
 
