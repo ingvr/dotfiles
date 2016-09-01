@@ -36,7 +36,7 @@ alias vim='nvim'
 alias vi='nvim'
 alias gtc='git add . && git commit -v'
 alias gts='git status'
-alias wthr='curl -4 http://wttr.in/Yekaterinburg'
+alias wthr='curl -4 http://wttr.in/Yekaterinburg\?m'
 alias moon='curl -4 http://wttr.in/Moon'
 alias gulpnew='git clone https://github.com/nzmi/katana-gulp.git gulp && cd gulp && bower i && npm i && rm -rf .git'
 
