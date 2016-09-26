@@ -39,6 +39,7 @@ alias gts='git status'
 alias wthr='curl -4 http://wttr.in/Yekaterinburg\?m'
 alias moon='curl -4 http://wttr.in/Moon'
 alias gulpnew='git clone https://github.com/nzmi/katana-gulp.git gulp && cd gulp && bower i && npm i && rm -rf .git'
+alias safari='open -a safari'
 
 # Diary
 DIARY_CS='seoul256' # custom colorscheme for Diary
