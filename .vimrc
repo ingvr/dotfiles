@@ -52,6 +52,12 @@ nnoremap <silent> <C-l> :nohl<CR><C-l>
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
 
+" block cursor keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP
+
 " vimwiki
 let g:vimwiki_list = [
    \{'path': '$HOME/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents',
