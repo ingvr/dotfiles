@@ -56,7 +56,10 @@ inoremap <Up> <C-o>gk
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
-noremap <Right> <NOP
+noremap <Right> <NOP>
+
+"disable ctlp root search
+let g:ctrlp_working_path_mode = 0
 
 " vimwiki
 let g:vimwiki_list = [
