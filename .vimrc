@@ -23,6 +23,9 @@ let g:airline_theme='bubblegum'
 set linebreak
 set number
 
+" search without sensivity
+set ignorecase
+
 " tabs
 set expandtab
 set shiftwidth=2
@@ -51,6 +54,7 @@ noremap Q <nop>
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
+noremap <Leader>n :NERDTreeToggle<CR>
 
 " block cursor keys
 noremap <Up> <NOP>
@@ -77,3 +81,6 @@ function! SuperCleverTab()
 endfunction
 
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
+
+" autoreplace
+abbr fnk function() {}
