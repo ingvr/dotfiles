@@ -7,7 +7,7 @@ filetype plugin indent on
 "set noswapfile
 
 " Colorscheme
-colorscheme itg_flat_transparent 
+colorscheme itg_flat_transparent
 
 " Highlighting for md
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
@@ -36,7 +36,7 @@ set tabstop=2
 set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
-set foldlevel=1  
+set foldlevel=1
 
 " autoinent fix
 augroup auto_comment
@@ -45,8 +45,12 @@ augroup auto_comment
 augroup END
 filetype indent on
 
-" autoclose tags 
+" autoclose tags
 :iabbrev </ </<C-X><C-O>
+
+" flash yanked text
+map y <Plug>(operator-flashy)
+nmap Y <Plug>(operator-flashy)$
 
 " mappings
 noremap <Leader>s :update<CR>
