@@ -11,6 +11,7 @@ colorscheme itg_flat_transparent
 
 " Highlighting for md
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+au BufRead,BufNewFile *.tmpl set filetype=html
 
 " leader hotkey
 let mapleader = ","
