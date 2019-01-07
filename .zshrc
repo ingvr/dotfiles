@@ -41,7 +41,7 @@ alias gfp='git ftp push'
 #alias gap='git push && git ftp push'
 alias wthr='curl -4 http://wttr.in/Yekaterinburg\?m'
 alias moon='curl -4 http://wttr.in/Moon'
-alias gulpnew='git clone https://github.com/nzmi/katana-gulp.git gulp && cd gulp && bower i && npm i && rm -rf .git'
+alias gulp-new='git clone https://github.com/nzmi/katana-gulp.git gulp && cd gulp && bower i && npm i && rm -rf .git'
 alias safari='open -a safari'
 
 # Diary
