@@ -1,6 +1,6 @@
 # Oh-my-zsh configuration
 export ZSH=/Users/ingvar/.oh-my-zsh
-ZSH_THEME="minimal"
+ZSH_THEME="kinda-fishy"
 # export CLICOLOR=1
 
 # User configuration
@@ -51,5 +51,5 @@ alias diary='vi -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c 
 
 # Writer
 alias ia='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents'
-alias writer='vi -c ":source ~/.vim/writer.vim"' 
-alias writerd='vi -c ":source ~/.vim/writer-dark.vim"' 
+alias writer='vi -c ":source ~/.vim/writer.vim"'
+alias writerd='vi -c ":source ~/.vim/writer-dark.vim"'
