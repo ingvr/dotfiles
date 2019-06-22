@@ -1,6 +1,6 @@
 # Oh-my-zsh configuration
 export ZSH=/Users/ingvar/.oh-my-zsh
-ZSH_THEME="kinda-fishy"
+ZSH_THEME="kinda-fishy-fork"
 # export CLICOLOR=1
 
 # User configuration
