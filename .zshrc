@@ -1,3 +1,6 @@
+# locale
+export LC_ALL="en_US.UTF-8"
+
 # Oh-my-zsh configuration
 export ZSH=/Users/ingvar/.oh-my-zsh
 ZSH_THEME="kinda-fishy-fork"

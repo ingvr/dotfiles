@@ -39,6 +39,10 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=1
 
+" wrap guide line
+set textwidth=80
+set colorcolumn=+1
+
 " autoinent fix
 augroup auto_comment
   au!
