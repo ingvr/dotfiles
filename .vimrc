@@ -97,3 +97,6 @@ abbr fnk function() {}
 " prettier on save
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+
+" use deoplete.
+let g:deoplete#enable_at_startup = 1
