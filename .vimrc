@@ -100,3 +100,7 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
 
 " use deoplete.
 let g:deoplete#enable_at_startup = 1
+
+" minimap
+autocmd! VimEnter * Minimap
+let g:minimap_highlight='Visual'
