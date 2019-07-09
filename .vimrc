@@ -71,8 +71,13 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
-"disable ctlp root search
+" disable ctlp root search
 let g:ctrlp_working_path_mode = 0
+" remove gitignored from ctrlp
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+" show hidden files in NERDTree
+let NERDTreeShowHidden=1
 
 " vimwiki
 let g:vimwiki_list = [
@@ -97,10 +102,3 @@ abbr fnk function() {}
 " prettier on save
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
-
-" use deoplete.
-let g:deoplete#enable_at_startup = 1
-
-" minimap
-autocmd! VimEnter * Minimap
-let g:minimap_highlight='Visual'
