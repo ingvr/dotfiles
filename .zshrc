@@ -56,3 +56,6 @@ alias diary='vi -c :VimwikiMakeDiaryNote -c ":colorscheme $DIARY_CS" -c Goyo -c 
 alias ia='cd ~/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents'
 alias writer='vi -c ":source ~/.vim/writer.vim"'
 alias writerd='vi -c ":source ~/.vim/writer-dark.vim"'
+
+# Tor
+alias torstart='sh /usr/local/bin/tor.sh'
